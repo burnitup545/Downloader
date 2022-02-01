@@ -1,4 +1,3 @@
-$dev=$args[0]
 try
 {
 

